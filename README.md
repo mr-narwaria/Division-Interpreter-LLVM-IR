@@ -12,6 +12,9 @@ Design and Implementation of a Interpreter that performs division using LLVM Com
 ## How to Run
 
 ### Run on Linux-Ubuntu or WSL in Windows
+```bash
+git clone 
+```
 
 **Steps for Run the Software**
 1. Compile the Interpreter:
