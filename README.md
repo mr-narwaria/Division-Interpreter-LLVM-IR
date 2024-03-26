@@ -6,39 +6,49 @@ Design and Implementation of an Interpreter that performs division using the LLV
 
 - LLVM
 - lli
+  ```bash
+  sudo apt install llvm
+  ```
+- make
+  ```bash
+  sudo apt install make
+  ```
 - C++11
 
 ## How to Run
 
 ### Run on Linux-Ubuntu or WSL in Windows
 
-**Steps for Run the Software**
+**Steps for Run the Program**
 1. Compile the Interpreter:
-Command: `make`
-`>make`
-This command will generate the interpreter executable named `mylang2ir`.
+```bash
+make
+```
+This command will generate the interpreter executable named `division-interpreter`.
 
-2. **Execute the Interpreter**:
-`>./mylang2ir input_file.my`
-
-Replace `input_file.my` with the path to your input file written in the pseudo-language.
+2. Execute the Interpreter:
+```bash
+./division-interpreter input.my
+```
+Replace `input.my` with the path to your input file written.
 
 Example:
-./mylang2ir examples/input.my
+./division-interpreter examples/input.my
 
 
-3. **Run the LLVM IR Code**:
-After executing the interpreter, it will generate an LLVM IR code file named `input_file.ll`. You can run this LLVM IR code using `lli` (LLVM interpreter) to get the output.
-lli input_file.ll
-
-
+3. Run the LLVM IR Code:
+After executing the interpreter, it will generate an LLVM IR code file named `input.ll`. You can run this LLVM IR code using `lli` (LLVM interpreter) to get the output.
+```bash
+lli input.ll
+```
 This will execute the LLVM IR code and display the output.
 
 ## Example
 
-Assuming you have an input file named `input.my` containing your pseudo-language code, you would run the following commands:
-./mylang2ir input.my
-lli input.ll
+Assuming you have an input file named `input.my` containing your input, you would run the following commands in the sequences: <br>
+>make <br>
+>./division-interpreter input.my <br>
+>lli input.ll
 
 
-This will execute your pseudo-language code and display the output.
+This will execute your input and display the output.
