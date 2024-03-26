@@ -18,6 +18,10 @@ Design and Implementation of an Interpreter that performs division using the LLV
 ## How to Run
 
 ### Run on Linux-Ubuntu or WSL in Windows
+You can clone this repository using the following command:
+  ```bash
+  git clone 
+  ```
 
 **Steps for Run the Program**
 1. Compile the Interpreter:
