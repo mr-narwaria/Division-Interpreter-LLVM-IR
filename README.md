@@ -34,7 +34,7 @@ This command will generate the interpreter executable named `division-interprete
 ```bash
 ./division-interpreter input.my
 ```
-Replace `input.my` with the path to your input file written.
+Replace `input.my` with the path to your input file written. This command will generate the `input.ll` file of LLVM-IR code
 
 Example:
 ./division-interpreter examples/input.my
