@@ -21,6 +21,7 @@ Design and Implementation of an Interpreter that performs division using the LLV
 ### Run on Linux-Ubuntu or WSL in Windows
 ```bash
 git clone https://github.com/mr-narwaria/Division-Interpreter-LLVM-IR.git
+cd Division-Interpreter-LLVM-IR
 ```
 
 **Steps for Run the Software**
