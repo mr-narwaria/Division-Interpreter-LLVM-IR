@@ -41,7 +41,7 @@ Example:
 
 
 3. Run the LLVM IR Code:
-After executing the interpreter, it will generate an LLVM IR code file named `input.ll`. You can run this LLVM IR code using `lli` (LLVM interpreter) to get the output.
+After executing the interpreter, it will generate an LLVM IR code file named `input.ll`. You can run this LLVM IR code using `lli` (LLVM interpreter tool) to get the output.
 ```bash
 lli input.ll
 ```
