@@ -15,11 +15,11 @@ Design and Implementation of an Interpreter that performs division using the LLV
 **Steps for Run the Software**
 1. Compile the Interpreter:
 Command: `make`
->make
+`>make`
 This command will generate the interpreter executable named `mylang2ir`.
 
 2. **Execute the Interpreter**:
->./mylang2ir input_file.my
+`>./mylang2ir input_file.my`
 
 Replace `input_file.my` with the path to your input file written in the pseudo-language.
 
