@@ -56,3 +56,9 @@ Assuming you have an input file named `input.my` containing your input, you woul
 
 
 This will execute your input and display the output.
+
+## Authors
+
+- [Shambhoolal Narwaria](https://github.com/mr-narwaria)
+- [Alhan Charan Beshra](https://github.com/ezio2605)
+- [Abhishek Raj](https://github.com/Abhi9708bittu)
