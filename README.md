@@ -11,6 +11,9 @@ Design and Implementation of an Interpreter that performs division using the LLV
   sudo apt install llvm
   ```
 - C++11
+  ```bash
+  sudo apt install g++
+  ```
 - make
   ```bash
   sudo apt install make
