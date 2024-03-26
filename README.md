@@ -1,54 +1,44 @@
-# Division-Interpreter-LLVM-IR
+# Basic LLVM Division Interpreter
 
-This is a basic interpreter for a pseudo-language that translates to LLVM IR version 3.3.
+Design and Implementation of an Interpreter that performs division using the LLVM Compilation Framework
 
-## Prerequisites
+## Dependencies
 
-This project requires the following tools to be installed on your system:
-- **LLVM**: The LLVM compiler infrastructure (Download LLVM)
-- **lli**: The LLVM interpreter, typically included with the LLVM installation
-- **C++11 compiler**: A compiler that supports the C++11 standard
+- LLVM
+- lli
+- C++11
 
-## Installation (Optional)
+## How to Run
 
-This step is optional if you already have LLVM and `lli` installed.
-1. Download and install LLVM from the official website following the instructions for your operating system: LLVM Download
-2. Make sure the `lli` executable is included in your system path after installation. You can check this by running `lli --version` in your terminal.
+### Run on Linux-Ubuntu or WSL in Windows
 
-## Running the Project
-
-1. **Clone the Project (if not already downloaded)**:
-   If you haven't already downloaded the project files, you can clone this repository using Git:
-
-git clone https://github.com/mr-narwaria/basic-llvm-ir-interpreter.git
-
-
-2. **Navigate to the Project Directory**:
-Use the `cd` command to navigate to the directory containing the project files:
-
-cd basic-llvm-ir-interpreter
-
-
-3. **Compile the Interpreter**:
-Compile the interpreter source code to generate the executable file. This is typically done using the `make` command:
-
+**Steps for Run the Software**
+1. Compile the Interpreter:
+Command: `make`
 >make
+This command will generate the interpreter executable named `mylang2ir`.
 
-This will create an executable file named `mylang2ir` in the current directory.
-
-4. **Execute the Interpreter**:
-Now you can use the `mylang2ir` executable to interpret your pseudo-language code. The command syntax is:
-
+2. **Execute the Interpreter**:
 >./mylang2ir input_file.my
 
-Replace `input_file.my` with the actual filename of your code written in the pseudo-language.
-The interpreter will generate an LLVM IR code file named `input_file.ll` in the same directory.
+Replace `input_file.my` with the path to your input file written in the pseudo-language.
 
-5. **Run the LLVM IR Code (Optional)**:
-The generated LLVM IR code can be executed directly using the `lli` interpreter:
+Example:
+./mylang2ir examples/input.my
 
->lli input_file.ll
 
-This will execute the LLVM IR code and display the output on your terminal.
+3. **Run the LLVM IR Code**:
+After executing the interpreter, it will generate an LLVM IR code file named `input_file.ll`. You can run this LLVM IR code using `lli` (LLVM interpreter) to get the output.
+lli input_file.ll
 
-Remember to replace `input_file.my` with your actual pseudo-language code file. Have fun experimenting with your interpreter!
+
+This will execute the LLVM IR code and display the output.
+
+## Example
+
+Assuming you have an input file named `input.my` containing your pseudo-language code, you would run the following commands:
+./mylang2ir input.my
+lli input.ll
+
+
+This will execute your pseudo-language code and display the output.
