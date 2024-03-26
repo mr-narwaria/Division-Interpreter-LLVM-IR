@@ -1,19 +1,26 @@
 # Basic LLVM Division Interpreter
 
-Design and Implementation of a Interpreter that performs division using LLVM Compilation Framework
+Design and Implementation of an Interpreter that performs division using the LLVM Compilation Framework
 
 ## Dependencies
 
 - LLVM
 - lli
+  ```bash
+  sudo apt update
+  sudo apt install llvm
+  ```
 - C++11
 - make
+  ```bash
+  sudo apt install make
+  ```
 
 ## How to Run
 
 ### Run on Linux-Ubuntu or WSL in Windows
 ```bash
-git clone 
+git clone https://github.com/mr-narwaria/Division-Interpreter-LLVM-IR.git
 ```
 
 **Steps for Run the Software**
