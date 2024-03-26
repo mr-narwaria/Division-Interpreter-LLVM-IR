@@ -1,29 +1,19 @@
 # Basic LLVM Division Interpreter
 
-Design and Implementation of an Interpreter that performs division using the LLVM Compilation Framework
+Design and Implementation of a Interpreter that performs division using LLVM Compilation Framework
 
 ## Dependencies
 
 - LLVM
 - lli
-  ```bash
-  sudo apt install llvm
-  ```
-- make
-  ```bash
-  sudo apt install make
-  ```
 - C++11
+- make
 
 ## How to Run
 
 ### Run on Linux-Ubuntu or WSL in Windows
-You can clone this repository using the following command:
-  ```bash
-  git clone https://github.com/mr-narwaria/Division-Interpreter-LLVM-IR.git
-  ```
 
-**Steps for Run the Program**
+**Steps for Run the Software**
 1. Compile the Interpreter:
 ```bash
 make
@@ -56,10 +46,3 @@ Assuming you have an input file named `input.my` containing your input, you woul
 
 
 This will execute your input and display the output.
-
-
-## Authors
-- [Shambhoolal Narwaria](https://github.com/mr-narwaria)
-- [Alhan Charan Beshra](https://github.com/ezio2605)
-- [Abhishek Raj](https://github.com/Abhi9708bittu)
-

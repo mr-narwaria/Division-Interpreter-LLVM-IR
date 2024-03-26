@@ -1,0 +1,3 @@
+# Division with Precedence: - Test Case 2: (7500)/(645/47)
+calc = (7500)/(645/47) 
+print(calc)			# Output: 576
