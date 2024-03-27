@@ -354,9 +354,8 @@ ASTNode *Parser::parseExpr()
     if (node == NULL)
         return node;
 
-    //Checks if the operator is "+" or "-" and recursively parses right side of operators
     //this creates a tree as it calls and stores lower functions recursively
-    while (currentToken.value == "+" || currentToken.value == "-")
+    while (currentToken.value == "*" || currentToken.value == "/")
     {
         string opSign = currentToken.value; //Store operation sign
         currentToken = getToken();          //get next token
