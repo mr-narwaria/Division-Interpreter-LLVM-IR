@@ -1,4 +1,4 @@
-# Basic LLVM Division Interpreter
+## Basic LLVM Division Interpreter
 
 Design and Implementation of an Interpreter that performs division using the LLVM Compilation Framework
 
